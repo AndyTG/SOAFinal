@@ -58,7 +58,7 @@ $datadecod = json_decode($data);
         foreach ($datadecod as $vehiculo) {
             echo
 
-                "<div class='col-4'>
+                "<div class='col-sm-12 col-4'>
                     <div class='card mb-4 text-white text-center' 
                          style='width: 18rem;
                          background-color: rgba(73, 80, 87, 0.8);
